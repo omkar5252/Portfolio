@@ -3,6 +3,7 @@ import '../App.css';
 import AOS from 'aos';  // AOS for animations
 import 'aos/dist/aos.css';  // AOS styles
 import Typed from 'typed.js';  // Typed.js for typing effect
+import myImage from '../assets/img/hero-bg.jpg';
 
 const Home = () => {
     const typedElement = useRef(null);  // Create a reference for the typed element
@@ -28,7 +29,7 @@ const Home = () => {
 
     return (
         <section id="hero" className="hero section dark-background">
-            <img src="assets/img/hero-bg.jpg" alt="Hero Background" data-aos="fade-in" className="" />
+            <img src={myImage} alt="Hero Background" data-aos="fade-in" className="" />
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Omkar Dorugade</h2>

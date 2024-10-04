@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.css';
+import myImage from '../assets/img/my-profile-img.jpg';
+
 
 
 const About = () => {
@@ -14,7 +16,7 @@ const About = () => {
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row gy-4 justify-content-center">
                     <div className="col-lg-4">
-                        <img src="assets/img/my-profile-img.jpg" className="img-fluid" alt="Profile" />
+                        <img src={myImage} className="img-fluid" alt="Profile" />
                     </div>
                     <div className="col-lg-8 content">
                         <h2>Web Developer</h2>
